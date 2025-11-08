@@ -113,7 +113,7 @@ export default function Home() {
           <button
             onClick={onConnect}
             disabled={loading}
-            className="rounded-lg px-4 py-2.5 bg-gradient-to-r from-black to-gray-800 text-white shadow hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black disabled:opacity-50"
+            className="rounded-lg px-4 py-2.5 bg-linear-to-r from-black to-gray-800 text-white shadow hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black disabled:opacity-50"
           >
             {account ? '지갑 새로고침' : '지갑 연결'}
           </button>
